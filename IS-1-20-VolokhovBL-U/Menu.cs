@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace IS_1_20_VolokhovBL_U
 {
-    public partial class Form1 : Form
+    public partial class Menu : Form
     {
-        public Form1()
+        public Menu()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Accessories1 b1 = new Accessories1();
+            b1.ShowDialog();
         }
     }
 }
