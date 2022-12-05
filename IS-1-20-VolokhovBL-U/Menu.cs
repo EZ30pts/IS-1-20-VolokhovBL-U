@@ -22,5 +22,11 @@ namespace IS_1_20_VolokhovBL_U
             Accessories1 b1 = new Accessories1();
             b1.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Zadanie2 a1 = new Zadanie2();
+            a1.ShowDialog();
+        }
     }
 }
