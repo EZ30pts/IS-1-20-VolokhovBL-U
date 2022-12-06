@@ -16,7 +16,6 @@ namespace IS_1_20_VolokhovBL_U
         public Zadanie2()
         {
             InitializeComponent();
-            StartPosition = FormStartPosition.CenterScreen;
         }
 
         class Subd

@@ -19,13 +19,19 @@ namespace IS_1_20_VolokhovBL_U
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Accessories1 b1 = new Accessories1();
-            b1.ShowDialog();
+            Accessories1 a1 = new Accessories1();
+            a1.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Zadanie2 a1 = new Zadanie2();
+            a1.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Zadanie3 a1 = new Zadanie3();
             a1.ShowDialog();
         }
     }
