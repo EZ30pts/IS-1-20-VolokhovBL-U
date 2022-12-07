@@ -40,5 +40,11 @@ namespace IS_1_20_VolokhovBL_U
             Zadanie4 a1 = new Zadanie4();
             a1.ShowDialog();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Zadanie5 a1 = new Zadanie5();
+            a1.ShowDialog();
+        }
     }
 }
